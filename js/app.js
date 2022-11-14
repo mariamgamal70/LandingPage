@@ -44,8 +44,8 @@ scrollToSection(anchor);
 /*SUGGESTED 1*/
 //HIDE MENU ON INACTIVITY OF SCROLL
 let navbar=document.querySelector('header');
-function hideMenu(){
 let moving=null;
+function hideMenu(){
 navbar.style.transform='translateY(0px)';//currently scrolling
 navbar.style.transition='all 1s ease';
 if(moving){
