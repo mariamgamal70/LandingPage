@@ -3,6 +3,7 @@ Udacity web development professional track first project using the given html an
 javascript is used to make the website more responsive.
 
 requirements:
+<br>
 1-Add an active state to your navigation items when a section is in the viewport
 2-Build the navigation menu. dynamically create a navigation menu based on the sections of the page
 3-Add the functionality to scroll to sections.
