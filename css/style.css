@@ -81,12 +81,17 @@ section {
     text-decoration: none;
     color: #000;
 }
-
-.navbar__menu .menu__link:hover {
+.navbar__menu .menu__link:hover{
     background: #333;
-    color: #fff;
+    color: #fff !important;
     transition: ease 0.3s all;
 }
+.anchoractive {
+    background: #333;
+    /*color: #fff;*/
+    transition: ease 0.3s all;
+}
+
 
 /* Header Styles */
 .page__header {
@@ -280,10 +285,5 @@ span.active{
 
     to {
         transform: rotate(360deg) translate(-1em) rotate(-360deg);
-    }
-}
-@keyframes texteffect{
-    0%{
-
     }
 }
