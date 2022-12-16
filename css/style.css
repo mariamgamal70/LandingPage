@@ -81,16 +81,18 @@ section {
     text-decoration: none;
     color: #000;
 }
-.navbar__menu .menu__link:hover{
+@media only screen and (min-width: 600px) {
+    .navbar__menu .menu__link:hover{
     background: #333;
     color: #fff !important;
     transition: ease 0.3s all;
 }
+}
 .anchoractive {
     background: #333;
-    /*color: #fff;*/
     transition: ease 0.3s all;
 }
+
 
 
 /* Header Styles */

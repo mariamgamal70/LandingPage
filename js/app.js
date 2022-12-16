@@ -40,6 +40,7 @@ function portviewCheck() {
 }
 document.addEventListener('scroll', portviewCheck); /*each time a scroll happens it checks whether any of the sections is within portview*/
 
+
 // Scroll to anchor ID using scrollTO event
 function scrollToSection(anchorclicked) {
     let anchortagid = anchorclicked.textContent;
